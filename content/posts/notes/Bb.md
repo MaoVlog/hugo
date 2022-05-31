@@ -3,7 +3,7 @@ title: "吐槽神器—B言B语"
 date: 2020-04-25T14:53:46+08:00
 description: 一个自言自语无点赞无评论之地。
 categories: 网络应用
-tags: [吐槽,微博]
+tags: [说说]
 feature: https://blog.chenplus.com/images/bb.jpg
 ---
 
