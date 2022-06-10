@@ -1,29 +1,27 @@
-name: HUGO
-on: push
-jobs:
-  deploy:
-    runs-on: ubuntu-18.04
-    steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
+name: GitHub Page Deploy
 
-      - name: Update theme
-        run: git submodule update --init --recursive
-        
-      - name: Setup hugo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-deploy:
+    runs-on: ubuntu-20.04
+    steps:      
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.64.0"
+          hugo-version: '0.81.0'
+          # extended: true
 
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: Maovlog.github.io
-          publish_dir: ./public
-          user_name: MaoVlog
-          user_email:maovlog@qq.com
-          publish_branch: gh-pages
+      - name: Build Hugo
+        run: |
+                    hugo
+      - name: Deploy Hugo to gh-pages
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
