@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分类 on 猫哥网志</title>
+    <link>https://maovlog.com/tags/</link>
+    <description>Recent content in 分类 on 猫哥网志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 24 Feb 2022 12:14:05 +0800</lastBuildDate><atom:link href="https://maovlog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录</title>
+      <link>https://maovlog.com/tags/%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Thu, 24 Feb 2022 12:14:05 +0800</pubDate>
+      
+      <guid>https://maovlog.com/tags/%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>折腾</title>
+      <link>https://maovlog.com/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Sun, 27 Jun 2021 16:30:37 +0800</pubDate>
+      
+      <guid>https://maovlog.com/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>设计</title>
+      <link>https://maovlog.com/tags/%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Wed, 26 May 2021 00:33:15 +0800</pubDate>
+      
+      <guid>https://maovlog.com/tags/%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>说说</title>
+      <link>https://maovlog.com/tags/%E8%AF%B4%E8%AF%B4/</link>
+      <pubDate>Sat, 25 Apr 2020 14:53:46 +0800</pubDate>
+      
+      <guid>https://maovlog.com/tags/%E8%AF%B4%E8%AF%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>好物</title>
+      <link>https://maovlog.com/tags/%E5%A5%BD%E7%89%A9/</link>
+      <pubDate>Thu, 19 Dec 2019 14:35:04 +0000</pubDate>
+      
+      <guid>https://maovlog.com/tags/%E5%A5%BD%E7%89%A9/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
